@@ -1,0 +1,14 @@
+{
+  "niulaiVpkSha256": "4effc28b4e9caceb92e6035c1db2e6fda42047241ac5168f860e2fb9d637a981",
+  "naidanVpkSha256": "1ca251db7ad4fd3d4990a5ab6d5a0cf5bc2e8f3d137fa8af0d1d6b8e323cd47e",
+  "sharedResources": [
+    "panorama/layout/citadel_hero_logo.vxml_c",
+    "panorama/scripts/independent_wordmark_bridge.vjs_c",
+    "panorama/styles/independent_wordmark_bridge.vcss_c"
+  ],
+  "sharedBytesIdentical": true,
+  "virtualLoadOrdersIdentical": true,
+  "runtimeAcceptance": "User confirmation relayed by authorized control thread, QQ1844776182",
+  "newHudLifecycleAutomation": "not completed",
+  "newHudEnglishRuntime": "not completed"
+}
