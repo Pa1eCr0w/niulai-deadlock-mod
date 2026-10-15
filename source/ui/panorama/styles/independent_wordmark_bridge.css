@@ -1,0 +1,7 @@
+/* Neutral bridge v1: no hero names or image routing. */
+#IndependentWordmarkHost { visibility: collapse; }
+CitadelHeroLogo.IndependentWordmarkActive #IndependentWordmarkHost { visibility: visible; }
+CitadelHeroLogo.IndependentWordmarkActive #LogoImage,
+CitadelHeroLogo.IndependentWordmarkActive .HeroName { visibility: collapse; }
+
+CitadelHeroLogo.IndependentWordmarkActive.ShowHeroName.ShowHeroLogo .HeroName { visibility: collapse; }

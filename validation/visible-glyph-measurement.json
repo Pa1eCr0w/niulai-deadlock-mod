@@ -1,0 +1,35 @@
+{
+  "stock": {
+    "image": "outputs/aber-lai-compat-v29/delivery-naidan-core-only-schinese/01-atlas.png",
+    "bbox": [
+      2675,
+      1415,
+      3607,
+      1716
+    ],
+    "width": 932,
+    "height": 301
+  },
+  "before": {
+    "image": "outputs/aber-lai-compat-v29/delivery-niulai-core-only-schinese/01-atlas.png",
+    "bbox": [
+      2819,
+      1414,
+      3460,
+      1713
+    ],
+    "width": 641,
+    "height": 299
+  },
+  "after": {
+    "image": "outputs/aber-lai-compat-v29/large-wordmark-single-schinese/01-atlas.png",
+    "bbox": [
+      2675,
+      1275,
+      3604,
+      1708
+    ],
+    "width": 929,
+    "height": 433
+  }
+}

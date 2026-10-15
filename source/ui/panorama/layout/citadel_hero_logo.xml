@@ -1,0 +1,14 @@
+<!-- xml reconstructed by Source 2 Viewer 20.0.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/citadel_base_styles.vcss" />
+		<include src="s2r://panorama/styles/citadel_hero_logo.vcss" />
+	<include src="s2r://panorama/styles/independent_wordmark_bridge.vcss" />
+</styles>
+	<scripts><include src="s2r://panorama/scripts/independent_wordmark_bridge.vjs" /></scripts>
+<CitadelHeroLogo>
+		<Label class="HeroName" text="{s:hero_name}" />
+		<Image id="LogoImage" scaling="contain" />
+<Panel id="IndependentWordmarkHost" />
+	</CitadelHeroLogo>
+</root>

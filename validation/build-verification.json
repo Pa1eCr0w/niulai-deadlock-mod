@@ -1,0 +1,11 @@
+{
+  "zipSha256": "5628fc3d5b94d726fe581934e430d2d779aa7346bd2460220bddebd73d1fb2c1",
+  "vpkSha256": "4effc28b4e9caceb92e6035c1db2e6fda42047241ac5168f860e2fb9d637a981",
+  "payloadCRC": "PASS",
+  "payloadCount": 26,
+  "changedResources": [
+    "panorama/styles/niulai_compat_wordmark.vcss_c"
+  ],
+  "sharedBridgeUnchanged": true,
+  "ordinaryLocalizationOverrides": false
+}

@@ -1,0 +1,2191 @@
+{
+  "version": "beta0.1.0",
+  "deduplication": "Exact content SHA256 only; different sizes are retained as separate assets. Turntable video frames and diagnostics excluded.",
+  "assets": [
+    {
+      "order": 1,
+      "purpose": "普通头像",
+      "status": "current",
+      "relativePath": "current/001-normal.png",
+      "sha256": "2c5acb27dbdfe519636ca7db827f86b41cc28a93d1984a786a1b729930483907",
+      "aliases": [
+        "outputs/niulai-successor/normal.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 2,
+      "purpose": "危急头像",
+      "status": "current",
+      "relativePath": "current/002-critical.png",
+      "sha256": "a709ca8fea59c2034eb5b02d9c0b8a80ca7f84a187d76f3c877181ff4abcd023",
+      "aliases": [
+        "outputs/niulai-successor/critical.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 3,
+      "purpose": "大杀特杀头像",
+      "status": "current",
+      "relativePath": "current/003-gloat.png",
+      "sha256": "c397ba2ff75800890566154193674650d9481b477f0a34adb1a934153c657d82",
+      "aliases": [
+        "outputs/niulai-successor/gloat.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 4,
+      "purpose": "选人前景",
+      "status": "current",
+      "relativePath": "current/004-selection-foreground.png",
+      "sha256": "55cab3d44f69b3c4a8ed50d8e4e5edacf99eee36e0f116eea59338e202973d5e",
+      "aliases": [
+        "outputs/niulai-successor/selection-foreground.png"
+      ],
+      "size": [
+        971,
+        1619
+      ]
+    },
+    {
+      "order": 5,
+      "purpose": "选人图",
+      "status": "current",
+      "relativePath": "current/005-selection.png",
+      "sha256": "c2c7dbfb1bb6501bf52d8d870593c44af92d2635aa1cd4daa6fc0069ae939231",
+      "aliases": [
+        "outputs/niulai-selection-v23/selection.png"
+      ],
+      "size": [
+        960,
+        1600
+      ]
+    },
+    {
+      "order": 6,
+      "purpose": "选人图布局源",
+      "status": "current",
+      "relativePath": "current/006-selection-layout.svg",
+      "sha256": "a4f5f657ce3a1c4b48ae55b237b6fd0c4f5c521a76841bedd6c7ac486a845de1",
+      "aliases": [
+        "outputs/niulai-selection-v23/selection-layout.svg"
+      ]
+    },
+    {
+      "order": 7,
+      "purpose": "亚伯来艺术字源",
+      "status": "current",
+      "relativePath": "current/007-亚伯来.svg",
+      "sha256": "9a793fdce0838b8416494fc17a391cfd820c781b87c7b9a9fbe205033baf5db5",
+      "aliases": [
+        "outputs/aber-lai-user-wordmark/亚伯来.svg"
+      ]
+    },
+    {
+      "order": 8,
+      "purpose": "用户艺术字原稿",
+      "status": "current",
+      "relativePath": "current/008-亚伯来-原稿.png",
+      "sha256": "2ec1a9ce62be4750620cdb67188b6ef55ef8b01ebff2536b9a3fcf199e3dbed3",
+      "aliases": [
+        "outputs/aber-lai-user-wordmark/亚伯来-原稿.png"
+      ],
+      "size": [
+        7713,
+        3704
+      ]
+    },
+    {
+      "order": 9,
+      "purpose": "艺术字预览",
+      "status": "current",
+      "relativePath": "current/009-亚伯来-预览.png",
+      "sha256": "a7a41b7637067e7e0d77c0a6ddbcbebdf91415ac85d204fdbf7edeb963c5ba17",
+      "aliases": [
+        "outputs/aber-lai-user-wordmark/亚伯来-预览.png"
+      ],
+      "size": [
+        1600,
+        768
+      ]
+    },
+    {
+      "order": 10,
+      "purpose": "当前游戏尺寸头像",
+      "status": "current",
+      "relativePath": "current/010-bull_card_gloat_psd.png",
+      "sha256": "2a9a9eb09c9a3f83b9f1a4aa7cf24eef3a2ed26806d6072ce6040e21bf7eafef",
+      "aliases": [
+        "outputs/niulai-successor/game-size/bull_card_gloat_psd.png",
+        "outputs/niulai-successor/game-size/bull_card_gloat_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 11,
+      "purpose": "当前游戏尺寸头像",
+      "status": "current",
+      "relativePath": "current/011-bull_card_psd.png",
+      "sha256": "fa38bf6c4e2c86a001bdf488355cca1c38fa8d2b489896f2f93f59808bb49b44",
+      "aliases": [
+        "outputs/niulai-successor/game-size/bull_card_psd.png",
+        "outputs/niulai-successor/game-size/bull_card_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 12,
+      "purpose": "当前游戏尺寸头像",
+      "status": "current",
+      "relativePath": "current/012-bull_card_critical_psd.png",
+      "sha256": "a42169c1afb30688369a9af18c8c49ca2c61401d4f88ced13c8c32bec79cb8eb",
+      "aliases": [
+        "outputs/niulai-successor/game-size/bull_card_critical_psd.png",
+        "outputs/niulai-successor/game-size/bull_card_critical_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 13,
+      "purpose": "当前游戏尺寸选人图",
+      "status": "current",
+      "relativePath": "current/013-bull_vertical_psd.png",
+      "sha256": "ec1e7565e14c42fe0fa7abb922b2e1097ad1995c4ecbfc7a4bf99caff60f70c7",
+      "aliases": [
+        "outputs/niulai-selection-v23/game-size/bull_vertical_psd.png",
+        "outputs/niulai-selection-v23/game-size/bull_vertical_psd.png"
+      ],
+      "size": [
+        120,
+        200
+      ]
+    },
+    {
+      "order": 14,
+      "purpose": "当前技能/小地图/小头像",
+      "status": "current",
+      "relativePath": "current/014-bull_mm_psd.png",
+      "sha256": "7b677d48b26fc6669e30841e6d168b3e2ff120bf24edfbc5fa23ee0f09bb2784",
+      "aliases": [
+        "work/aber-lai-build-v19/ui-source/panorama/images/heroes/bull_mm_psd.png",
+        "outputs/aber-lai-minimap-v16/bull_mm_psd.png"
+      ],
+      "size": [
+        50,
+        50
+      ]
+    },
+    {
+      "order": 15,
+      "purpose": "当前技能/小地图/小头像",
+      "status": "current",
+      "relativePath": "current/015-bull_sm_psd.png",
+      "sha256": "0406fe474b32332f61ba61be0e121e60bac9fbaffba830fb3fd3d7bb65cf1ee9",
+      "aliases": [
+        "work/aber-lai-build-v19/ui-source/panorama/images/heroes/bull_sm_psd.png",
+        "work/aber-lai-build-v19/ui-source/panorama/images/heroes/bull_sm_psd_19f8ca40.png"
+      ],
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "order": 16,
+      "purpose": "当前技能/小地图/小头像",
+      "status": "current",
+      "relativePath": "current/016-bull_charge_psd.png",
+      "sha256": "2757c2b7360681f7b0a76e12b6c306edb5f7fb70b1dd343a4bf29696111dba7b",
+      "aliases": [
+        "work/aber-lai-build-v19/ui-source/panorama/images/hud/abilities/bull_charge_psd.png",
+        "outputs/aber-lai-side-heads/skill2-v4.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 17,
+      "purpose": "当前技能/小地图/小头像",
+      "status": "current",
+      "relativePath": "current/017-bull_beef_psd.png",
+      "sha256": "cae7760e877996c9afc34325c494ce0593c3dc662316ffcd812ddf2186147c01",
+      "aliases": [
+        "work/aber-lai-build-v19/ui-source/panorama/images/hud/abilities/bull_beef_psd.png",
+        "outputs/aber-lai-review-v7/skill3-v10-137.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 18,
+      "purpose": "当前技能/小地图/小头像",
+      "status": "current",
+      "relativePath": "current/018-bull_jump_psd.png",
+      "sha256": "05a29409c48d2459070b68cc0bda2f3737281ee62874c86fb4da5b957dcb174e",
+      "aliases": [
+        "work/aber-lai-build-v19/ui-source/panorama/images/hud/abilities/bull_jump_psd.png",
+        "outputs/aber-lai-side-heads/skill4.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 19,
+      "purpose": "模型头部贴图",
+      "status": "current",
+      "relativePath": "current/019-head_albedo.png",
+      "sha256": "a4f638f4ad5d33edb6506b790bad835ec4559b621b7e70b62570f39d51599621",
+      "aliases": [
+        "source-assets/materials/head_albedo.png"
+      ],
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "order": 20,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/020-compiled-high.png",
+      "sha256": "31cae968d10aea2d3e29b713fc70240e517972d385bd38608aa95cbae499d00c",
+      "aliases": [
+        "outputs/aber-lai-build-v19/compiled-high.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 21,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/021-compiled-low.png",
+      "sha256": "56933540ba0734813a331a4af29648b87744809076cc2f148478eafdfa9f228b",
+      "aliases": [
+        "outputs/aber-lai-build-v19/compiled-low.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 22,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/022-brow-lift.png",
+      "sha256": "b44c56961bb867e9b8b482f53eee8a5f029a4bf0293659f8090cf7b7fc07a582",
+      "aliases": [
+        "outputs/aber-lai-facial-v17/brow-lift.png"
+      ],
+      "size": [
+        700,
+        700
+      ]
+    },
+    {
+      "order": 23,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/023-head-turn.png",
+      "sha256": "4c17fa05e2f383c57842a969f158797517b95414b7d731c565055fae56927fbe",
+      "aliases": [
+        "outputs/aber-lai-facial-v17/head-turn.png"
+      ],
+      "size": [
+        700,
+        700
+      ]
+    },
+    {
+      "order": 24,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/024-jaw-motion.png",
+      "sha256": "bb21147ed5dbeb81aaefd791bb2b31c3d78ef1c27d821a4a144d24f911ec5819",
+      "aliases": [
+        "outputs/aber-lai-facial-v17/jaw-motion.png"
+      ],
+      "size": [
+        700,
+        700
+      ]
+    },
+    {
+      "order": 25,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/025-neutral.png",
+      "sha256": "3c21e0baedcde0e62c44f3e6bb415dc4e951f74490c9249f401d0dc5aa202c99",
+      "aliases": [
+        "outputs/aber-lai-facial-v17/neutral.png"
+      ],
+      "size": [
+        700,
+        700
+      ]
+    },
+    {
+      "order": 26,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/026-bull_mm_psd.png",
+      "sha256": "ad33fa88d6ce31413be1c355953311fbb10f96dea7f79c9157c6ec9eb01b400f",
+      "aliases": [
+        "outputs/aber-lai-minimap-v11/bull_mm_psd.png"
+      ],
+      "size": [
+        50,
+        50
+      ]
+    },
+    {
+      "order": 27,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/027-minimap.png",
+      "sha256": "ea612419e636c8dcbb419ee47ecc9408e4d3affa97967ebd6fb63b2566d90ff4",
+      "aliases": [
+        "outputs/aber-lai-minimap-v11/minimap.png"
+      ],
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "order": 28,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/028-minimap.png",
+      "sha256": "8d32e8a8a580c6c767ccf5e7c4f011b679b8ad5525589d76636a424eb8336ff7",
+      "aliases": [
+        "outputs/aber-lai-minimap-v16/minimap.png"
+      ],
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "order": 29,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/029-front.png",
+      "sha256": "a7a4578f7e6764ed709632777d693a03e93217605b9aaa04ed47011c1f45ce96",
+      "aliases": [
+        "outputs/aber-lai-model-v12/front.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 30,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/030-look-down.png",
+      "sha256": "57f70eaeb11ffce39896f06b99a31e5ae4d386d6ab1e7895abf24cc76fe7d748",
+      "aliases": [
+        "outputs/aber-lai-model-v12/look-down.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 31,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/031-look-up.png",
+      "sha256": "dd1f8ab01c2055d0b1390f0d0fc623e354f793260b92555ff66759ebdaa7943f",
+      "aliases": [
+        "outputs/aber-lai-model-v12/look-up.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 32,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/032-low.png",
+      "sha256": "c9794cea9f0d62813844a320aa4fa3acd3bd6ca0c2955523be1acc107133a1e8",
+      "aliases": [
+        "outputs/aber-lai-model-v12/low.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 33,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/033-side.png",
+      "sha256": "c61c8338ab5053df531c5fb360216730f76afe212f58dfaff5b34356c0721309",
+      "aliases": [
+        "outputs/aber-lai-model-v12/side.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 34,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/034-threequarter.png",
+      "sha256": "f2a754bc2c29885d39c899240de57a21f6829984fe092d161c09a3562564df94",
+      "aliases": [
+        "outputs/aber-lai-model-v12/threequarter.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 35,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/035-turn-left.png",
+      "sha256": "9bffe012dc1afd81b4c83427f422bc45bc2d12b8ef63ff0735c5a959b6d8051c",
+      "aliases": [
+        "outputs/aber-lai-model-v12/turn-left.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 36,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/036-turn-right.png",
+      "sha256": "e52613f336bb1d19965ad9470ad8956bf4968e37df048c3fc68de3d4c6b5f2d7",
+      "aliases": [
+        "outputs/aber-lai-model-v12/turn-right.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 37,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/037-front.png",
+      "sha256": "c665efb471a77748e4156f03820f77b2a85efe8d68cab439aeb9d02b636fd5ef",
+      "aliases": [
+        "outputs/aber-lai-model-v14/front.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 38,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/038-look-down.png",
+      "sha256": "b0f86f75b75dc567c7a5c8b91e35436c09c893d6cbdb1d4522d36a1437de415a",
+      "aliases": [
+        "outputs/aber-lai-model-v14/look-down.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 39,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/039-look-up.png",
+      "sha256": "fe40602f85c52576773bea46b12a0d9a0de85ae0cf9b5dc846e5d6b48c7ef1a6",
+      "aliases": [
+        "outputs/aber-lai-model-v14/look-up.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 40,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/040-low.png",
+      "sha256": "e34a4adfd9539be284cc55dc1d60935c791d3192451f509bfb4c9d3e691b1c80",
+      "aliases": [
+        "outputs/aber-lai-model-v14/low.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 41,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/041-side.png",
+      "sha256": "785e6981a9bad7b2651141b8c76c1a4987445d0e9f266a1161d97373e2fdbb9e",
+      "aliases": [
+        "outputs/aber-lai-model-v14/side.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 42,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/042-threequarter.png",
+      "sha256": "80c12fb8327b9ac6ea93c404f85e709177825b83cf5a43ee8925c1fb836bc3f0",
+      "aliases": [
+        "outputs/aber-lai-model-v14/threequarter.png"
+      ],
+      "size": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "order": 43,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/043-turn-left.png",
+      "sha256": "f429fd74100a4fccea4f4d1f0689d06c4621383a7b8658f726f78518900fac58",
+      "aliases": [
+        "outputs/aber-lai-model-v14/turn-left.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 44,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/044-turn-right.png",
+      "sha256": "69dfaae4e9ad7d8a126d32374c54568a43b9dec68d07de61bb5dff11d9f61b2e",
+      "aliases": [
+        "outputs/aber-lai-model-v14/turn-right.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 45,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/045-bull_card_gloat_psd.png",
+      "sha256": "87cfe9678aad210649fa330ec9063e598914923b83bc6703d176b23f02ca77a7",
+      "aliases": [
+        "outputs/aber-lai-portraits-v10/bull_card_gloat_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 46,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/046-bull_mm_psd.png",
+      "sha256": "9402825cce07d9f0e01de0410b8d1cdba6c49afc2ade54c8ee6a2abab04f2a06",
+      "aliases": [
+        "outputs/aber-lai-portraits-v10/bull_mm_psd.png"
+      ],
+      "size": [
+        50,
+        50
+      ]
+    },
+    {
+      "order": 47,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/047-gloat.png",
+      "sha256": "5e3c4ff0940faf9118964ef3a0b488c7539adcbbae9e33732ae995ebd3d79aad",
+      "aliases": [
+        "outputs/aber-lai-portraits-v10/gloat.png",
+        "painted-portraits/大杀特杀状态.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 48,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/048-minimap.png",
+      "sha256": "f1444560b8fe645e2ab2774aa6e4b5a37b3efa093e9f64824ca0544c1c7566d9",
+      "aliases": [
+        "outputs/aber-lai-portraits-v10/minimap.png"
+      ],
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "order": 49,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/049-critical.png",
+      "sha256": "0662fc64da81ef2aa6e812b39613e824f9ba8c3e44d2274f4470d95613ab2e7f",
+      "aliases": [
+        "outputs/aber-lai-portraits-v18/critical.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 50,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/050-bull_card_critical_psd.png",
+      "sha256": "6a74f84b63343c1de53c0a657ff3a9d1f8e547a45911713040f341e2b38b7dad",
+      "aliases": [
+        "outputs/aber-lai-portraits-v18/game-size/bull_card_critical_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 51,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/051-bull_card_psd.png",
+      "sha256": "e32899c1e30443189fe4ce4cce3def2782345cadf0aeb6fcd308ad8fa600482b",
+      "aliases": [
+        "outputs/aber-lai-portraits-v18/game-size/bull_card_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 52,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/052-normal.png",
+      "sha256": "f67fd59cdc4d650296d86b5ecf86d563d190181a354bf7b5b0a7c63c8279c8c2",
+      "aliases": [
+        "outputs/aber-lai-portraits-v18/normal.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 53,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/053-bull_vertical_psd.png",
+      "sha256": "89efa54f2263e00be7172312ae6beb0a1a8411d48e56e09328632757a43d7cdc",
+      "aliases": [
+        "outputs/aber-lai-portraits-v21/game-size/bull_vertical_psd.png"
+      ],
+      "size": [
+        120,
+        200
+      ]
+    },
+    {
+      "order": 54,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/054-selection.png",
+      "sha256": "e751c16c12647d833db0fd859494cba9f6bc099f970d4e1568c0a716780c3aa6",
+      "aliases": [
+        "outputs/aber-lai-portraits-v21/selection.png"
+      ],
+      "size": [
+        971,
+        1619
+      ]
+    },
+    {
+      "order": 55,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/055-critical.png",
+      "sha256": "a29a3020ee5299f0aa6121be047a08387dabb6afbe0c51d7dafdf340c12cf8ae",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/critical.png",
+        "painted-portraits/危急状态.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 56,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/056-bull_card_critical_psd.png",
+      "sha256": "1efbffb50b54b9e7eb425f99d2806c15a5c3340e2ebedf58469219673c9b588b",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/game-size/bull_card_critical_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 57,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/057-bull_card_gloat_psd.png",
+      "sha256": "f5049cb4e458dd1e9c4da6a852f809bf7e4d552d22fe55c4733d22877c1dde7c",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/game-size/bull_card_gloat_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 58,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/058-bull_card_psd.png",
+      "sha256": "fd29bacce91cce49ca148f352ce00f7b6d9a8e6ab82d542e652f322adfc2c3af",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/game-size/bull_card_psd.png"
+      ],
+      "size": [
+        280,
+        380
+      ]
+    },
+    {
+      "order": 59,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/059-bull_mm_psd.png",
+      "sha256": "46f879e59ae30c2a4dcdf666664095a6b4b05840097d0eba7ffe5e10601afd74",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/game-size/bull_mm_psd.png"
+      ],
+      "size": [
+        50,
+        50
+      ]
+    },
+    {
+      "order": 60,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/060-gloat.png",
+      "sha256": "db6a3bfc14431bc7937ae234da544cc1e26b525970f940f5f6da0d26c7ab3ae4",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/gloat.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 61,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/061-minimap.png",
+      "sha256": "bf1afe76e0db1731ca9bf7d11ca7e9ba520aa078c49daa5e70463d1919e171ff",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/minimap.png"
+      ],
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "order": 62,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/062-normal.png",
+      "sha256": "821fe1bd615727f59d7d4f9561031478fcfb5433d727d210143f212ea764bbe4",
+      "aliases": [
+        "outputs/aber-lai-portraits-v9/normal.png",
+        "painted-portraits/普通状态.png"
+      ],
+      "size": [
+        1076,
+        1461
+      ]
+    },
+    {
+      "order": 63,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/063-critical-v2.png",
+      "sha256": "0b47dd741dddd802618a4b1790e549fe2c7c0960bc98e940490a07677f1df45e",
+      "aliases": [
+        "outputs/aber-lai-review-v7/critical-v2.png"
+      ],
+      "size": [
+        1077,
+        1461
+      ]
+    },
+    {
+      "order": 64,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/064-critical.png",
+      "sha256": "af904ca74457aab7c89d2671387ba2c8e9f0d7c01e702443b179c1617e84787c",
+      "aliases": [
+        "outputs/aber-lai-review-v7/critical.png"
+      ],
+      "size": [
+        1077,
+        1460
+      ]
+    },
+    {
+      "order": 65,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/065-gloat.png",
+      "sha256": "041da21ef6670836c70cd1434ec7f01304761dffb22464e9b79b837a436bf5f6",
+      "aliases": [
+        "outputs/aber-lai-review-v7/gloat.png"
+      ],
+      "size": [
+        1077,
+        1460
+      ]
+    },
+    {
+      "order": 66,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/066-normal.png",
+      "sha256": "7f2336d0e3a8c11d83e41bb8cdda8b1f6616cb48eeb26dc79156bf96cf6bb056",
+      "aliases": [
+        "outputs/aber-lai-review-v7/normal.png"
+      ],
+      "size": [
+        1077,
+        1460
+      ]
+    },
+    {
+      "order": 67,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/067-skill3-v10.png",
+      "sha256": "4713cd33d4da559d22806fd869902709c7337e86f1e05e9ba225c870ef0f27f4",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v10.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 68,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/068-skill3-v10.svg",
+      "sha256": "e4673f3e4a33e59fe2b14d978ed6ac009c283792e6738cd73cc2837a36ff65dc",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v10.svg"
+      ]
+    },
+    {
+      "order": 69,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/069-skill3-v8-137.png",
+      "sha256": "f7afb2c56078913104f6f3ced3f18955c8762038b9166a5dfa83fcb517546e21",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v8-137.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 70,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/070-skill3-v8.png",
+      "sha256": "3afedf7f12c221efc1bd9fd02f5ad3e500f8fd69c23cf256507d3f4a760dcba3",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v8.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 71,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/071-skill3-v8.svg",
+      "sha256": "b27719674f2bc1d43ae430ae9fccf47496b37849326410a06634d12c35bf0ca2",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v8.svg"
+      ]
+    },
+    {
+      "order": 72,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/072-skill3-v9-137.png",
+      "sha256": "52907c8534b9a280ac42d0c9a38b7252da3a249905b1528dd7fa1c323ba68be2",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v9-137.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 73,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/073-skill3-v9.png",
+      "sha256": "0be1c5a5c9979a6bc52018a71045429389a5bb407e26e9e7c2de1a4f5babd3a7",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v9.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 74,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/074-skill3-v9.svg",
+      "sha256": "bfb314478e11741f91b606df14bcdbdc7ee8cbc8b8611d22c97b773d2b9b6f02",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3-v9.svg"
+      ]
+    },
+    {
+      "order": 75,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/075-skill3.png",
+      "sha256": "01f6b23f3b4bda7f073f6e1795d705abd1a8c43e5bb46e55508b463b994024c4",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3.png"
+      ],
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "order": 76,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/076-skill3.svg",
+      "sha256": "cfe0dbd4fc548ccc55450ec979b23cac88e82a3353db51b2cb8d90771edc0d6b",
+      "aliases": [
+        "outputs/aber-lai-review-v7/skill3.svg"
+      ]
+    },
+    {
+      "order": 77,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/077-skill3-137.png",
+      "sha256": "f5f6c986fcb5d5dbc594eb6c1b6c31ffab042b87df2f9af2f3d671c2c7835234",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill3-137.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 78,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/078-skill3.png",
+      "sha256": "932a05a7dfb543f7595bd21130949eda486d0c1e6ec2e2a4d8feed257968e2fc",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill3.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 79,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/079-skill3.svg",
+      "sha256": "013539a79bd23007a49a1fd6f13e949d6f8d9b4ae204e586e053d5b324cf53a4",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill3.svg"
+      ]
+    },
+    {
+      "order": 80,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/080-skill4-137.png",
+      "sha256": "c0076e3a78118e2802f3308a175035d60fcf3f8c010db7e58cb86bf8c2c03631",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill4-137.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 81,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/081-skill4.png",
+      "sha256": "03e16763d88acbd7b0ad9c36a6528355d3f8b757c5e50d0bb6e98e790a9b6c43",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill4.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 82,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/082-skill4.svg",
+      "sha256": "5da2d3117b6d8f3185ee89d7dd9f0f14bc7a8095c2144eb372345c35772b73a9",
+      "aliases": [
+        "outputs/aber-lai-review-v8/skill4.svg"
+      ]
+    },
+    {
+      "order": 83,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/083-skill2-large.png",
+      "sha256": "930f168a57071e93cbdc17b19b72b67f150b4a9272973cc35b717bec2a15cdb2",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-large.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 84,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/084-skill2-v2-large.png",
+      "sha256": "f0d630dff406c06ef9e2bf17a93880f8d51cd3bc85e76283f542cc20771c693d",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v2-large.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 85,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/085-skill2-v2.png",
+      "sha256": "be8fcc7a44a58df5e04de1bbcb73da3cd5abf6140675d490a666d36610c1a361",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v2.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 86,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/086-skill2-v2.svg",
+      "sha256": "5173f6f72f0f6b86605754ed52e5c376d1767778a2d93b047b4ca7e1fbaadb37",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v2.svg"
+      ]
+    },
+    {
+      "order": 87,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/087-skill2-v3-large.png",
+      "sha256": "9b805fc0ddca17610a1b6c3c9c034484bc6aaeed92567d084dd9d5e8c156ea77",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v3-large.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 88,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/088-skill2-v3.png",
+      "sha256": "b4b540691a90920d3a3e7a9506449f0eaca608208fbe53be73acd824b5bbd366",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v3.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 89,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/089-skill2-v3.svg",
+      "sha256": "2a6bef094b233d49f69e68dadf20f37b96ad92eaf61a4bcf4ee386a9b9b94421",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v3.svg"
+      ]
+    },
+    {
+      "order": 90,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/090-skill2-v4-large.png",
+      "sha256": "8d02dbc0988b572add4fd3e1e7c954841020a3e04f288e53afb10c1770540613",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v4-large.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 91,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/091-skill2-v4.svg",
+      "sha256": "f30a01e75a1b939c3d1ca534c9783a9c8822ffdd16f76ddeb75a0b972a55f09b",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2-v4.svg"
+      ]
+    },
+    {
+      "order": 92,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/092-skill2.png",
+      "sha256": "8cd3d33361aaba198e7b7be7684431f9ad6352157dbe38a98bc7ffa12dd36d93",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2.png"
+      ],
+      "size": [
+        137,
+        137
+      ]
+    },
+    {
+      "order": 93,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/093-skill2.svg",
+      "sha256": "9a418b2fa260982f5336e0a66c74b529e47d49fe09c9830321be8522e1cdd4c3",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill2.svg"
+      ]
+    },
+    {
+      "order": 94,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/094-skill4-large.png",
+      "sha256": "166ea1eafdeff412596c1617dc0eb89725742487ec078bd26bd2f883e0428779",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill4-large.png"
+      ],
+      "size": [
+        822,
+        822
+      ]
+    },
+    {
+      "order": 95,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/095-skill4.svg",
+      "sha256": "d8b14d426ef895a866be3500f222c9a263afa76c51a9fbfb448c3a6a2a6e67bd",
+      "aliases": [
+        "outputs/aber-lai-side-heads/skill4.svg"
+      ]
+    },
+    {
+      "order": 96,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/096-bull_mm_psd.png",
+      "sha256": "17247afc7877bb7746b0d38d78627f51f8cec1c522ee9c960913d1ef63c0e6c4",
+      "aliases": [
+        "outputs/aber-lai-v15/bull_mm_psd.png"
+      ],
+      "size": [
+        50,
+        50
+      ]
+    },
+    {
+      "order": 97,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/097-front.png",
+      "sha256": "5e2d2b8d6a2ae2ec3f5f8abd7ca069b7001f0cb4883e4cb604a06aaf98cbab3c",
+      "aliases": [
+        "outputs/aber-lai-v15/front.png"
+      ],
+      "size": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "order": 98,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/098-head-hands.png",
+      "sha256": "ca95f4e737e44b8b691dfe8e2f879706f0f0098ffc29a62df2a03539ae0fd785",
+      "aliases": [
+        "outputs/aber-lai-v15/head-hands.png"
+      ],
+      "size": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "order": 99,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/099-minimap.png",
+      "sha256": "ccbd2d5e2eabafb00e67f668973a31016f86ec9314ef7071309c07c65da198cb",
+      "aliases": [
+        "outputs/aber-lai-v15/minimap.png"
+      ],
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "order": 100,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/100-fitted-head-front.png",
+      "sha256": "4cb15e399f9c2a4ba3bd2dc7844da0bb6bb111c0fa73b1e3aebc4ae311226942",
+      "aliases": [
+        "outputs/niulai-fitted-v3/fitted-head-front.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 101,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/101-fitted-head-side.png",
+      "sha256": "4d7c4adc91e550c8de83b673cbbe592ebd927aa26f34e2c95131ad734de065c3",
+      "aliases": [
+        "outputs/niulai-fitted-v3/fitted-head-side.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 102,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/102-niulai-fitted-face.png",
+      "sha256": "891247c8252763e33cf3e054bef28f6a78a59a3f05dca2604b77f722d647d613",
+      "aliases": [
+        "outputs/niulai-fitted-v3/niulai-fitted-face.png",
+        "work/ai-v3/niulai-fitted-face.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 103,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/103-niulai-fitted-front.png",
+      "sha256": "2763eadab083352ee151526c79ce1655141d76c5c23d1e852165649eb86eabf5",
+      "aliases": [
+        "outputs/niulai-fitted-v3/niulai-fitted-front.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 104,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/104-niulai-fitted-quarter.png",
+      "sha256": "b409e5b9196c67a8ee53815ce407a3d8d68b623f38a51c86e1c55b0c5b7a7b8c",
+      "aliases": [
+        "outputs/niulai-fitted-v3/niulai-fitted-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 105,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/105-niulai-fitted-side.png",
+      "sha256": "b304c51c937bcc3e6a531a1029ad92f12cb09e38839df867b8d50fa1d9852a4f",
+      "aliases": [
+        "outputs/niulai-fitted-v3/niulai-fitted-side.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 106,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/106-侧面对比.png",
+      "sha256": "c8c99fdfa91083d17fb11800a3eae901dce110fa0a01c59c2e7c7318f0d2ec3d",
+      "aliases": [
+        "outputs/niulai-fitted-v3/侧面对比.png"
+      ],
+      "size": [
+        840,
+        620
+      ]
+    },
+    {
+      "order": 107,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/107-尺寸对比.png",
+      "sha256": "48c882f213073433fd7cf5ff3193538da37a9ba7d8042e13c2d9071c613615a9",
+      "aliases": [
+        "outputs/niulai-fitted-v3/尺寸对比.png"
+      ],
+      "size": [
+        840,
+        620
+      ]
+    },
+    {
+      "order": 108,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/108-模型预览.png",
+      "sha256": "8e7b033487818becebbdc2efce42eb87206779ad9fb29c69c0541d12a3e3e6e0",
+      "aliases": [
+        "outputs/niulai-fitted-v3/模型预览.png"
+      ],
+      "size": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "order": 109,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/109-生成参考-正面.png",
+      "sha256": "838f8a3deafa3b08b78c740f9c59701471793a7093aff139dcccbfd11137d789",
+      "aliases": [
+        "outputs/niulai-fitted-v3/生成参考-正面.png",
+        "work/ai-v3/qwen-front.png"
+      ],
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "order": 110,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/110-生成参考-背面.png",
+      "sha256": "ad8d08f4c6f7bce0f97f722d67a9e1a0326535f30cf0c23cefecda215d94fa31",
+      "aliases": [
+        "outputs/niulai-fitted-v3/生成参考-背面.png",
+        "work/ai-v3/qwen-back.png"
+      ],
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "order": 111,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/111-建模参考-侧面.png",
+      "sha256": "36738b2dbe3663755bec7158809ceabf565ea5d18f72fa2cb344ab666708a0ff",
+      "aliases": [
+        "outputs/niulai-local-ai-v2/建模参考-侧面.png",
+        "work/ai-v2/qwen-left.png"
+      ],
+      "size": [
+        896,
+        1152
+      ]
+    },
+    {
+      "order": 112,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/112-建模参考-正面.png",
+      "sha256": "6bab60965ad0264d33f111a296d56a7a5e2922b6d5dc3786bae9c34583524ad5",
+      "aliases": [
+        "outputs/niulai-local-ai-v2/建模参考-正面.png",
+        "work/ai-v2/qwen-front.png"
+      ],
+      "size": [
+        896,
+        1152
+      ]
+    },
+    {
+      "order": 113,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/113-建模参考-背面.png",
+      "sha256": "fd8c5853bd94e926f42d6d242b50d07f176b5bad82e1586e909b865cfd7e7585",
+      "aliases": [
+        "outputs/niulai-local-ai-v2/建模参考-背面.png",
+        "work/ai-v2/qwen-back.png"
+      ],
+      "size": [
+        896,
+        1152
+      ]
+    },
+    {
+      "order": 114,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/114-collar-rear.png",
+      "sha256": "6cd3ef7246c5529e192ba57b61f812c47a2bc01a81d4127398a38cc8658c275c",
+      "aliases": [
+        "outputs/niulai-proportions-v4/collar-rear.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 115,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/115-collar-side.png",
+      "sha256": "dd3c544715c0e1e3a36e4fcc6097d10bca7ff3f5babb86bf07b84b9923488d08",
+      "aliases": [
+        "outputs/niulai-proportions-v4/collar-side.png",
+        "work/ai-v4/collar-side.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 116,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/116-fitted-head-front.png",
+      "sha256": "db7b53ffe91498a9a3f017cab692499293810a125149a45e81fab110b5e0d8d4",
+      "aliases": [
+        "outputs/niulai-proportions-v4/fitted-head-front.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 117,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/117-fitted-head-side.png",
+      "sha256": "a2c798c51302e9e9aa303988896a0a190771fac39b6735a8b4d22acfdd402c5a",
+      "aliases": [
+        "outputs/niulai-proportions-v4/fitted-head-side.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 118,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/118-niulai-fitted-face.png",
+      "sha256": "5e8cf4bda53c78c5861c040e16dd5997ed548e03025cdce94d4cf174b084d4ca",
+      "aliases": [
+        "outputs/niulai-proportions-v4/niulai-fitted-face.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 119,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/119-niulai-fitted-front.png",
+      "sha256": "1bb79fa5fccf0c7c4a874a7674e076f3cc8030521ababf67d6204fee4cf3c508",
+      "aliases": [
+        "outputs/niulai-proportions-v4/niulai-fitted-front.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 120,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/120-niulai-fitted-quarter.png",
+      "sha256": "cca30583061a1d14b1aadfb7e5f1685552e043b848f92930d297cede31e41fd1",
+      "aliases": [
+        "outputs/niulai-proportions-v4/niulai-fitted-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 121,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/121-niulai-fitted-side.png",
+      "sha256": "909e46e86e8db6c980056f44f6669b04a8f61e709d2b9444179de132893939b8",
+      "aliases": [
+        "outputs/niulai-proportions-v4/niulai-fitted-side.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 122,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/122-外形对照.png",
+      "sha256": "ec9429e51357d30df7eb8da3e5e88fb0f80dfa0af16402347562b15146dd77b8",
+      "aliases": [
+        "outputs/niulai-proportions-v4/外形对照.png"
+      ],
+      "size": [
+        1100,
+        630
+      ]
+    },
+    {
+      "order": 123,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/123-模型预览.png",
+      "sha256": "132b94ca83a5d4c08dda42ee6344dee6400e45a894b28f725d3d009b0ddc3de1",
+      "aliases": [
+        "outputs/niulai-proportions-v4/模型预览.png"
+      ],
+      "size": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "order": 124,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/124-bull_vertical_psd.png",
+      "sha256": "6a69db215fa5a7afe87f7a2df77048a36846d5576f13b4bd464646801ef586eb",
+      "aliases": [
+        "outputs/niulai-selection-v22/game-size/bull_vertical_psd.png"
+      ],
+      "size": [
+        120,
+        200
+      ]
+    },
+    {
+      "order": 125,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/125-selection-layout.svg",
+      "sha256": "6e52207273f74a6e572a215edda556fdd9919a253116bcd39240f88904fe689d",
+      "aliases": [
+        "outputs/niulai-selection-v22/selection-layout.svg"
+      ]
+    },
+    {
+      "order": 126,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/126-selection.png",
+      "sha256": "a567b2b6dff2ef5bd8b5299ff39818decc41e511e66955fe0af650dcfba49c8f",
+      "aliases": [
+        "outputs/niulai-selection-v22/selection.png"
+      ],
+      "size": [
+        960,
+        1600
+      ]
+    },
+    {
+      "order": 127,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/127-bull_vertical_psd.png",
+      "sha256": "e50160a31697ec98fb92a32b8176a897335df0d39502bb0cdc0a02c2bc49ccc7",
+      "aliases": [
+        "outputs/niulai-successor/game-size/bull_vertical_psd.png"
+      ],
+      "size": [
+        120,
+        200
+      ]
+    },
+    {
+      "order": 128,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/128-selection-layout.svg",
+      "sha256": "aca6e2e38a196dd0aa3b20811a95d8bbabb5ae276491848f6dc8635201eb122d",
+      "aliases": [
+        "outputs/niulai-successor/selection-layout.svg"
+      ]
+    },
+    {
+      "order": 129,
+      "purpose": "历史设计/模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/129-selection.png",
+      "sha256": "e997ae149e7d81a9c661c4e4777b5356d1dc47cc35f3506d87de9d1cc83350a4",
+      "aliases": [
+        "outputs/niulai-successor/selection.png"
+      ],
+      "size": [
+        960,
+        1600
+      ]
+    },
+    {
+      "order": 130,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/130-niulai-face.png",
+      "sha256": "38c13c00a36a5d6d00c3ceffb467095999c38702003a94f937c518edbd1af620",
+      "aliases": [
+        "outputs/niulai-face.png"
+      ],
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "order": 131,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/131-niulai-front.png",
+      "sha256": "6376bfd9b7a18c0128121b8c3c4f29204f81ce6ac5d980cb119a4dbebe96b2df",
+      "aliases": [
+        "outputs/niulai-front.png"
+      ],
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "order": 132,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/132-niulai-quarter.png",
+      "sha256": "0e458fef3143718aee77ef224a39948b141f83410e29b4969b72529fe9585e4e",
+      "aliases": [
+        "outputs/niulai-quarter.png"
+      ],
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "order": 133,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/133-niulai-review.png",
+      "sha256": "7f4afb9fc4ce4d55cc1b5e4b2574608798c67451e9ea0f3b6b2e642381fdd560",
+      "aliases": [
+        "outputs/niulai-review.png"
+      ],
+      "size": [
+        1800,
+        1056
+      ]
+    },
+    {
+      "order": 134,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/134-niulai-side.png",
+      "sha256": "1cc7461d495b805cb00e93f08bcc48c2568da419d6c90f9a897e3f5223b62d83",
+      "aliases": [
+        "outputs/niulai-side.png"
+      ],
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "order": 135,
+      "purpose": "早期模型渲染预览",
+      "status": "historical",
+      "relativePath": "history/135-niulai-three-views.png",
+      "sha256": "920ac9c2790b1123c44ac85f6da33964b0f958f5732ff7c822cc077e72380634",
+      "aliases": [
+        "outputs/niulai-three-views.png"
+      ],
+      "size": [
+        2160,
+        800
+      ]
+    },
+    {
+      "order": 136,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/136-abrams-niulai-face.png",
+      "sha256": "c2d38c706ca6b8ccab9897b3fad9f1ce8df03856f2f4ad2086a4aa5f38805eb6",
+      "aliases": [
+        "work/ai-v2/abrams-niulai-face.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 137,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/137-abrams-niulai-quarter.png",
+      "sha256": "fceda6ebe3f0618d1ab0a6108e43f5f2af4c4840d6f60249355a9db5dab7098a",
+      "aliases": [
+        "work/ai-v2/abrams-niulai-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 138,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/138-abrams-niulai-run.png",
+      "sha256": "716a5e649e1fd1334c6ac727163873a7fb78aa55cc05486fecb5d116530f495a",
+      "aliases": [
+        "work/ai-v2/abrams-niulai-run.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 139,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/139-back-rejected.png",
+      "sha256": "001eb2be8ca81ff0f5030026975712f6ca60de873d0f5e97e735191f06b05707",
+      "aliases": [
+        "work/ai-v2/back-rejected.png"
+      ],
+      "size": [
+        896,
+        1152
+      ]
+    },
+    {
+      "order": 140,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/140-head-front.png",
+      "sha256": "6bec2eb96e8e38464f393b0130dbfd312596a770b745b5582f43b5a995ba98c7",
+      "aliases": [
+        "work/ai-v2/head-front.png"
+      ],
+      "size": [
+        1100,
+        900
+      ]
+    },
+    {
+      "order": 141,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/141-head-quarter.png",
+      "sha256": "b82f6e1a5a2451365fff6340a69bc0c6e4aa8cbe3e40432743fec41517966656",
+      "aliases": [
+        "work/ai-v2/head-quarter.png"
+      ],
+      "size": [
+        1100,
+        900
+      ]
+    },
+    {
+      "order": 142,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/142-left-rejected.png",
+      "sha256": "862bf26c8c0e874693ca7816b236c1183e91fe984b9bdee04072d541cd6be9ed",
+      "aliases": [
+        "work/ai-v2/left-rejected.png"
+      ],
+      "size": [
+        896,
+        1152
+      ]
+    },
+    {
+      "order": 143,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/143-niulai-ai-face.png",
+      "sha256": "7e3229747097db53a7046cec0e8d375d2b3763dac5eaf356a8a78f0445347dba",
+      "aliases": [
+        "work/ai-v2/niulai-ai-face.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 144,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/144-niulai-ai-front.png",
+      "sha256": "706904baf0dc7ea22f27ad2d13e64c6a1760b3ea6b62f76bcd5d8432474a0752",
+      "aliases": [
+        "work/ai-v2/niulai-ai-front.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 145,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/145-niulai-ai-quarter.png",
+      "sha256": "b2937a7133c19cce02cd0be852dadf1c6a7ee5c2f144c2fe457ed1fa5167aca6",
+      "aliases": [
+        "work/ai-v2/niulai-ai-quarter.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 146,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/146-niulai-ai-side.png",
+      "sha256": "2fbf05e86e0467072f86746e3eb9473b2bb348d2362ebf603b77b1ed5f2c3707",
+      "aliases": [
+        "work/ai-v2/niulai-ai-side.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 147,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/147-niulai-final-quarter.png",
+      "sha256": "64d06d084aa60a963dd1d65d96e9095b2e860e42d4904d9a75d9bfc03c246349",
+      "aliases": [
+        "work/ai-v2/niulai-final-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 148,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/148-niulai-final-side.png",
+      "sha256": "a6529fabce0356fc13668f63d902134bfa0c9eb900b0614a1b69a38adab3c26d",
+      "aliases": [
+        "work/ai-v2/niulai-final-side.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 149,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/149-refined-face.png",
+      "sha256": "6791ee1f478c985d905e7f264ef479e58433d88832a8af7c2b3a5084c46dcd25",
+      "aliases": [
+        "work/ai-v2/refined-face.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 150,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/150-refined-quarter.png",
+      "sha256": "398458994486778eac62f70e133c97a793637ac7349fd6dd63fcc089d1ba97c2",
+      "aliases": [
+        "work/ai-v2/refined-quarter.png"
+      ],
+      "size": [
+        900,
+        1050
+      ]
+    },
+    {
+      "order": 151,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/151-fitted-head-front.png",
+      "sha256": "cb29c5458238111c879fb5954353463f30f4e54071421a05f20bdbad554fad1c",
+      "aliases": [
+        "work/ai-v3/fitted-head-front.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 152,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/152-fitted-head-side.png",
+      "sha256": "58cc0c8f6637448cbe03a7ed6384614a570ea296748cc4ca7f17c1490a2f74e2",
+      "aliases": [
+        "work/ai-v3/fitted-head-side.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 153,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/153-masked-front.png",
+      "sha256": "049172dec85605d036bd7536166f333a877cd947eaaaac714788487dcf95e0eb",
+      "aliases": [
+        "work/ai-v3/masked-front.png"
+      ],
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "order": 154,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/154-niulai-fitted-quarter.png",
+      "sha256": "f56affbff6289570c7efec1a778f3d7552d7ec45579391c9c2d0a45d9ff760f7",
+      "aliases": [
+        "work/ai-v3/niulai-fitted-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 155,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/155-qwen-left.png",
+      "sha256": "dbcedab20b0044646f174a99ace8d4ab6c73b16646c877890b51aa11c90cbc5f",
+      "aliases": [
+        "work/ai-v3/qwen-left.png"
+      ],
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "order": 156,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/156-collar-rear.png",
+      "sha256": "3f0d91823cb9b710a4bbcb59ceef4b75564002d7bb9f41498ec9de3ee6fc9a60",
+      "aliases": [
+        "work/ai-v4/collar-rear.png"
+      ],
+      "size": [
+        900,
+        900
+      ]
+    },
+    {
+      "order": 157,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/157-fitted-head-side.png",
+      "sha256": "69ef8273718125d070439ec65a460acd935970cc78d46296b9ddb09dee411b73",
+      "aliases": [
+        "work/ai-v4/fitted-head-side.png"
+      ],
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "order": 158,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/158-niulai-fitted-face.png",
+      "sha256": "0c131107ed2a7e81f85a3491419d9ab4620eea0e4e42f6e9feb60157e0cc914d",
+      "aliases": [
+        "work/ai-v4/niulai-fitted-face.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    },
+    {
+      "order": 159,
+      "purpose": "早期生成与模型外观候选",
+      "status": "historical",
+      "relativePath": "history/159-niulai-fitted-quarter.png",
+      "sha256": "473b5e67acf21f6a268578138792abd6eb5d7c7b59e5cbfeda7d2e5c2269314f",
+      "aliases": [
+        "work/ai-v4/niulai-fitted-quarter.png"
+      ],
+      "size": [
+        1000,
+        1100
+      ]
+    }
+  ]
+}

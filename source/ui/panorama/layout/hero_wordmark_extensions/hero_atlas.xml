@@ -1,0 +1,4 @@
+<root>
+ <styles><include src="s2r://panorama/styles/niulai_compat_wordmark.vcss" /></styles>
+ <Panel><Panel id="IndependentWordmarkReady" class="NiulaiOwnWordmark" /></Panel>
+</root>
