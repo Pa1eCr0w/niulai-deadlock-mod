@@ -1,0 +1,24 @@
+--- a/ValveResourceFormat/Resource/ResourceTypes/BinaryKV3.NodeType.cs
++++ b/ValveResourceFormat/Resource/ResourceTypes/BinaryKV3.NodeType.cs
+@@ -29,6 +29,8 @@
+             UINT8 = 23,
+             ARRAY_TYPE_BYTE_LENGTH = 24,
+             ARRAY_TYPE_AUXILIARY_BUFFER = 25,
++            UINT32_ZERO = 26,
++            UINT32_ONE = 27,
+         }
+     }
+ }
+--- a/ValveResourceFormat/Resource/ResourceTypes/BinaryKV3.cs
++++ b/ValveResourceFormat/Resource/ResourceTypes/BinaryKV3.cs
+@@ -810,6 +810,10 @@
+                     return true;
+                 case KV3BinaryNodeType.BOOLEAN_FALSE:
+                     return false;
++                case KV3BinaryNodeType.UINT32_ZERO:
++                    return 0U;
++                case KV3BinaryNodeType.UINT32_ONE:
++                    return 1U;
+                 case KV3BinaryNodeType.INT64_ZERO:
+                     return 0L;
+                 case KV3BinaryNodeType.INT64_ONE:

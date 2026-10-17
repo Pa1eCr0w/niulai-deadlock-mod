@@ -1,0 +1,13 @@
+{
+  "hero": "abrams",
+  "version": "0.1.1",
+  "name": "蓝牛来",
+  "baselineVpkSHA256": "4effc28b4e9caceb92e6035c1db2e6fda42047241ac5168f860e2fb9d637a981",
+  "expectedVpkSHA256": "497002a55ab2f582351005508616f1fa77f55276cfb74a057c78c7f3de52d203",
+  "zipSHA256": "6765f97fc15c6a337a5b3f615fad8cb69415bda0703760fe11c7bb2633798493",
+  "zipBytes": 15775081,
+  "readerUpstreamCommit": "d9926fcb7df821b8476f4750250d5dbf61a6bab7",
+  "files": 26,
+  "unchangedExisting": 25,
+  "fullRuntimeRegression": false
+}

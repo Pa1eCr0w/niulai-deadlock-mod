@@ -1,0 +1,31 @@
+using ValveResourceFormat.ResourceTypes.ModelAnimation2;
+using ValveResourceFormat;using ValveResourceFormat.ResourceTypes;using ValveResourceFormat.Serialization.KeyValues;using ValveKeyValue;using System.Text;using System.Text.Json;using System.Security.Cryptography;
+var modelPath=args[0];var retailPath=args[1];var clipsDir=args[2];var outDir=args[3];Directory.CreateDirectory(outDir);
+using var retail=new Resource();retail.Read(retailPath);var rm=(Model)retail.DataBlock!;var nativeMesh=(Mesh)retail.GetBlockByType(BlockType.MDAT)!;
+var rootAttachments=nativeMesh.Data.GetArray("m_attachments").Where(a=>a.GetSubCollection("value").GetArray<string>("m_influenceNames")[0]=="root_motion").ToDictionary(a=>a.GetStringProperty("key"));if(rootAttachments.Count!=16)throw new Exception("Unexpected native root attachment set");
+using var model=new Resource();model.Read(modelPath);var mm=(Model)model.DataBlock!;
+KVDocument Parse(string s){using var ms=new MemoryStream(Encoding.UTF8.GetBytes(s));return KVDocumentExtensions.ParseKV3(ms);}
+var rk=Parse(rm.Data.GetSubCollection("m_modelInfo").GetStringProperty("m_keyValueText"));var mk=Parse(mm.Data.GetSubCollection("m_modelInfo").GetStringProperty("m_keyValueText"));var cameras=rk.Root.GetArray("AttachmentCameraData");bool addCamera=!mk.Root.ContainsKey("AttachmentCameraData");if(!addCamera && mk.Root.GetSubCollection("AttachmentCameraData").ToKV3String()!=rk.Root.GetSubCollection("AttachmentCameraData").ToKV3String())throw new Exception("Existing camera definitions differ; review required");if(addCamera){mk.Root["AttachmentCameraData"]=rk.Root.GetSubCollection("AttachmentCameraData");mm.Data.GetSubCollection("m_modelInfo")["m_keyValueText"]=mk.ToKV3String();}
+var changed=new Dictionary<int,byte[]>();var changedMeshes=new List<object>();
+for(int i=0;i<model.Blocks.Count;i++){
+ var block=model.Blocks[i];bool update=addCamera && ReferenceEquals(block,mm);
+ if(block is Mesh mesh && mesh.Data.ContainsKey("m_attachments")){
+  var attachments=mesh.Data.GetArray("m_attachments");int n=0;var arr=KVObject.Array();foreach(var a in attachments){var name=a.GetStringProperty("key");if(rootAttachments.TryGetValue(name,out var target)){arr.Add(target);n++;}else arr.Add(a);}
+  if(n>0){if(n!=16)throw new Exception("Partial root attachment set");mesh.Data["m_attachments"]=arr;update=true;changedMeshes.Add(new{block=i,replaced=n});}
+ }
+ if(update){using var buf=new MemoryStream();block.Serialize(buf);changed[i]=buf.ToArray();}
+}
+var outModel=Path.Combine(outDir,Path.GetFileName(retailPath));Rewrite(modelPath,outModel,changed);using var check=new Resource();check.Read(outModel);var cm=(Model)check.DataBlock!;if(cm.Skeleton.Bones.Length!=mm.Skeleton.Bones.Length)throw new Exception("Skeleton changed");
+foreach(var name in rootAttachments.Keys){var a=rm.Attachments[name];var b=cm.Attachments[name];if(JsonSerializer.Serialize(a)!=JsonSerializer.Serialize(b))throw new Exception("Root attachment verify "+name);}
+if(Parse(cm.Data.GetSubCollection("m_modelInfo").GetStringProperty("m_keyValueText")).Root.GetArray("AttachmentCameraData").Count!=cameras.Count)throw new Exception("Camera verify");
+var crpt=new List<object>();int totalFixed=0;var outClips=Path.Combine(outDir,"clips");Directory.CreateDirectory(outClips);
+foreach(var f in Directory.GetFiles(clipsDir,"*.vnmclip_c")){
+ using var r=new Resource();r.Read(f);var clip=(AnimationClip)r.DataBlock!;var kv=clip.Data.Root;var settings=kv.GetArray("m_trackCompressionSettings");if(kv.GetIntegerArray("m_modelSpaceSamplingChain").Length!=0||kv.GetIntegerArray("m_modelSpaceBoneSamplingIndices").Length!=0)throw new Exception("Sampling indices require mapping");int offset=0,fix=0;
+ foreach(var s in settings){if(s.GetInt32Property("m_nTrackReadOffset")!=offset){s["m_nTrackReadOffset"]=offset;fix++;}offset+=(s.GetBooleanProperty("m_bIsRotationStatic")?0:3)+(s.GetBooleanProperty("m_bIsTranslationStatic")?0:3)+(s.GetBooleanProperty("m_bIsScaleStatic")?0:1);}
+ if(clip.CompressedPoseData.Length!=offset*2*clip.NumFrames)throw new Exception("Frame stride mismatch "+f);totalFixed+=fix;string dest=Path.Combine(outClips,Path.GetFileName(f));
+ if(fix==0)File.Copy(f,dest,true);else{using var buf=new MemoryStream();clip.Serialize(buf);Rewrite(f,dest,new Dictionary<int,byte[]>{{r.Blocks.IndexOf(clip),buf.ToArray()}});}
+ using var v=new Resource();v.Read(dest);var vc=(AnimationClip)v.DataBlock!;if(!vc.CompressedPoseData.SequenceEqual(clip.CompressedPoseData)||!vc.CompressedPoseOffsets.SequenceEqual(clip.CompressedPoseOffsets))throw new Exception("Pose bytes changed");
+ crpt.Add(new{clip=Path.GetFileName(f),tracks=settings.Count,offsetsFixed=fix,frameWords=offset,frames=clip.NumFrames,poseBytesUnchanged=true});
+}
+File.WriteAllText(Path.Combine(outDir,"contract-patch-report.json"),JsonSerializer.Serialize(new{modelSha256=Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(outModel))).ToLowerInvariant(),rootAttachments=rootAttachments.Keys,cameraDefinitions=cameras.Count,cameraDefinitionsAdded=addCamera,changedModelBlocks=changed.Keys,changedMeshes,clips=crpt.Count,totalTrackOffsetsFixed=totalFixed,clipDetails=crpt,runtimeVerified=false},new JsonSerializerOptions{WriteIndented=true}));Console.WriteLine($"CONTRACT_PATCH_PASS clips={crpt.Count} offsets={totalFixed} modelBlocks={changed.Count}");
+static void Rewrite(string input,string output,Dictionary<int,byte[]> replacements){var raw=File.ReadAllBytes(input);int table=8+BitConverter.ToInt32(raw,8),count=BitConverter.ToInt32(raw,12);using var ms=new MemoryStream();using var w=new BinaryWriter(ms);w.Write(raw,0,16);w.Write(new byte[count*12]);var entries=new List<(byte[] Tag,int At,int Len)>();for(int i=0;i<count;i++){int p=table+12*i;var tag=raw[p..(p+4)];int start=p+4+BitConverter.ToInt32(raw,p+4),length=BitConverter.ToInt32(raw,p+8);while(ms.Position%4!=0)w.Write((byte)0);int at=(int)ms.Position;var payload=replacements.TryGetValue(i,out var patch)?patch:raw[start..(start+length)];w.Write(payload);entries.Add((tag,at,payload.Length));}ms.Position=0;w.Write((uint)ms.Length);ms.Position=8;w.Write(8);w.Write(count);for(int i=0;i<count;i++){int p=16+i*12;ms.Position=p;w.Write(entries[i].Tag);w.Write(entries[i].At-(p+4));w.Write(entries[i].Len);}File.WriteAllBytes(output,ms.ToArray());}

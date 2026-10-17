@@ -1,0 +1,12 @@
+{
+  "cameraDefinitionsExactRetail": true,
+  "cameraCount": 11,
+  "meshBlocks": 16,
+  "rootAttachmentsPerBlock": 16,
+  "rootAttachmentsExactRetail": true,
+  "graphAndSkeletonReferencesExactRetail": true,
+  "packageFiles": 26,
+  "unchangedExistingResources": 25,
+  "vpkMatchesInstalledCandidate": true,
+  "fullRuntimeRegression": false
+}
